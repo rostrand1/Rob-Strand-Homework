@@ -50,6 +50,7 @@ body {
      font-size: 12px;
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
+     max-width: 500px;
 }
 
 
@@ -70,20 +71,20 @@ header {
   background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
   background-size: cover;
   font-size: 24px;
-  min-height: 400px;
-  min-width: 600px;
+  min-height: 300px;
+  min-width: 500px;
   padding: 40px;
   margin: 0 auto;
 }
-#Brand {
-  font-weight: bolder;
+#brand {
+  font-weight: 800;
   color: #606161;
   text-align: left;
 }
-#Entice {
+#peace {
   font-weight: semi-bold;
-  text-align: center;
   color: rgb(255, 255, 255);
+  margin-top: 40px;
 }
 #Get {
   background-color: #f9e42e;
@@ -99,12 +100,15 @@ header {
   padding: 40px;
   background-color: #f0efef;
 }
-#benefits {
+#bene {
   font-size: 20px;
   font-weight: semi-bold;
   text-align: left;
   padding: 0 0 10px 0;
   
+}
+#benefits {
+  padding: 30px;
 }
 h3 {
   text-align: left;
@@ -113,8 +117,9 @@ h3 {
 }
 ul {
   text-align: left;
+  text-indent: 20px;
   display: inline;
-  padding: 20px;
+  padding: 10px;
 }
 #third {
   background: url(../images/testimonial_bg.jpg)
@@ -122,11 +127,11 @@ ul {
 p {
   color: rgb(255, 255, 255);
   font-size: 18px;
-  padding: 20px;
+  padding: 10px;
+  font-style: italic;
 }
 #quote {
-  font-style: italic;
-  margin: 0 auto;
+  font-weight: 100;
 }
 #credit {
   font-weight: bold;
@@ -145,8 +150,22 @@ p {
   font-size: 14px;
   border-radius: 5px;
 }
-footer {
-
+#bottom {
+  min-height: 100px;
+  background-color: rgb(18, 18, 17);
+}
+#bottombrand {
+  font-weight: 800;
+  font-size: 24px;
+  color: #f9e42e;
+  position: relative;
+  top: 10px;
+  padding: 20px;
+}
+#footer {
+  position: relative;
+  font-size: 9px;
+  font-weight: bold;
 }
 
 /******************************************
