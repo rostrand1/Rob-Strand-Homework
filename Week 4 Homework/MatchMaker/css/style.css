@@ -72,17 +72,84 @@ header {
   font-weight: bold;
   font-size: 50px;
   color: yellow;
-  float: left;
+  padding: 15px 0 0 30px;
+}
+
+header nav ul {
+  margin-right: 30px;
+  padding-bottom: 30px;
 }
 
 header nav ul li {
   color: white;
-  text-align: right;
-  display: inline;
+  float: right;
+  font-size: 20px;
+  padding: 10px;
 }
 
 .bold {
   font-weight: bold;
+}
+
+div#slogan {
+  font-style: italic;
+  color: black;
+  font-weight: bold;
+  font-size: 25px;
+  background-color: #BFBEBF;
+  text-align: center;
+}
+
+h2#twoBrains {
+  padding: 20px;
+}
+
+span#taste {
+  text-decoration: line-through;
+  color: gray;
+}
+
+span#are {
+  border-bottom: 3px solid #FDF62C;
+}
+
+div#coworking {
+  background-image: url(coworking.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 600px;
+}
+
+div#transbox {
+  background: white;
+  opacity: 0.8; 
+  min-height: 450px;
+  max-width: 300px;
+  padding: 20px;
+  float: right;
+  margin-top: 65px;
+  margin-right: 35px;
+}
+
+div#transbox h3#meet {
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+div#transbox p {
+  font-size: 20px;
+  padding-bottom: 40px;
+}
+
+button#profile {
+  background-color: #FDF62C;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 30px;
+  font-size: 20px;
+  opacity: 1;
 }
 
 /******************************************
