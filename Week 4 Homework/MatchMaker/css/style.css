@@ -152,6 +152,14 @@ button#profile {
   opacity: 1;
 }
 
+div.choices {
+  display: inline;
+}
+
+div.choices h3, p, button {
+  float: left;
+}
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
