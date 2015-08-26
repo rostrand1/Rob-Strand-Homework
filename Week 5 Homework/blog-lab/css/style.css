@@ -92,7 +92,7 @@ article.post {
   width: 700px;
   display: inline-block;
   margin-right: 20px;
-  vertical-align: top;
+  /*vertical-align: top;*/
   background-color: white;
 }
 
@@ -111,6 +111,32 @@ p.text {
   padding-bottom: 20px;
 }
 
+.sidebar {
+  float: right;
+  display: inline;
+  background-color: white;
+  padding: 20px;
+  vertical-align: top;
+}
+
+ul#archive {
+  padding-bottom: 40px;
+}
+
+.sidebar h3 {
+  padding-bottom: 10px;
+  font-size: 26px;
+}
+
+.sidebar ul {
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
+.sidebar img {
+  display: block;
+  padding-bottom: 20px;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
